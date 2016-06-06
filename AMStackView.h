@@ -9,19 +9,19 @@
 @interface AMStackView : UIView
 
 /**
-*  Push view to scrollview with margintop
+*  Push view to superview with margintop
 *
 */
 - (void)pushView:(UIView *)view marginTop:(CGFloat)marginTop centered:(BOOL)centered;
 
 /**
-*  Push view to scrollview with margintop
+*  Push view to superview with margintop
 *
 */
 - (void)pushView:(UIView *)view marginTop:(CGFloat)marginTop centered:(BOOL)centered addSeparator:(BOOL)separator;
 
 /**
-*  Remove pushed views into scrollview instead of headerview and hmsegmentedcontrol
+*  Remove pushed views
 *
 */
 - (void)removeAllPushsedViews;
